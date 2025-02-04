@@ -15,10 +15,11 @@ export default function Navbar() {
           
           <div className="hidden md:flex md:items-center md:space-x-6">
             <div className="flex items-baseline space-x-4">
-              <a href="#home" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-              <a href="#services" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">Services</a>
-              <a href="#about" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#contact" className="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-500">Contact Us</a>
+              <a href="/#home" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+              <a href="/#services" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+              <a href="/#about" className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href='/lifeAtLogicNest' className="text-gray-300 hover:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium">Life at LogicNest</a>
+              <a href="/#contact" className="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-500">Contact Us</a>
             </div>
           </div>
           

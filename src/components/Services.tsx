@@ -6,6 +6,7 @@ const services = [
     title: 'Smart Process Modeling',
     description: 'Intuitive BPMN modeling with AI-powered suggestions and real-time validation',
     icon: Workflow,
+    link: '/bpmn',
   },
   {
     title: 'Process Optimization',
@@ -45,12 +46,20 @@ export default function Services() {
               </div>
               <div className="mt-8">
                 <h3 className="text-lg font-medium text-white">
-                  <span className="absolute inset-0" aria-hidden="true" />
+                  <span className="absolute" aria-hidden="true" />
                   {service.title}
                 </h3>
                 <p className="mt-2 text-sm text-gray-300">
                   {service.description}
                 </p>
+                {service.link && (
+                  <a
+                  href={service.link}
+                  className="mt-4 inline-flex items-center text-sm font-medium text-indigo-400 hover:text-indigo-300"
+                  >
+                  Learn more
+                  </a>
+                )}
               </div>
             </div>
           ))}

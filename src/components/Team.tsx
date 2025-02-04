@@ -9,32 +9,33 @@ import faridimg from '../gallery/farid.jpg';
 
 const team = [
   {
-    name: 'Kamrun Naher',
-    role: 'Manager',
-    image: kamrunimg,
+    name: 'Arya Sasi Kumar',
+    role: 'CEO & Business Analyst',
+    image: aryaimg, 
 
   },
   {
-    name: 'Arya Sasi Kumar',
-    role: 'Business Analyst',
-    image: aryaimg,
+    name: 'Kamrun Naher',
+    role: 'CMO & Project Manager',
+    image: kamrunimg,
+  
     
   },
   {
     name: 'Rishon M Mathew',
-    role: 'Frontend Developer',
+    role: 'CTO and UI/UX Designer',
     image: Rishonimg,
    
   },
   {
     name: 'Krupa Benny',
-    role: 'Backend Developer',
+    role: 'CTO & Developer',
     image: krupaimg,
    
   },
   {
     name: 'Farid Mammadov',
-    role: 'Software Tester',
+    role: 'CIO & Database Administrator',
     image: faridimg,
   },
 ];
