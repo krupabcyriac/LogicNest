@@ -1,4 +1,5 @@
 import React from 'react';
+import { ArrowRight } from 'lucide-react';
 import { Workflow, Settings, Share2 } from 'lucide-react';
 
 const services = [
@@ -52,14 +53,7 @@ export default function Services() {
                 <p className="mt-2 text-sm text-gray-300">
                   {service.description}
                 </p>
-                {service.link && (
-                  <a
-                  href={service.link}
-                  className="mt-4 inline-flex items-center text-sm font-medium text-indigo-400 hover:text-indigo-300"
-                  >
-                  Learn more
-                  </a>
-                )}
+              
               </div>
             </div>
           ))}
@@ -72,6 +66,14 @@ export default function Services() {
           </p>
         </div>
       </div>
+      <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+            <div className="rounded-md shadow">
+              <a href="/bpmn" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 md:py-4 md:text-lg md:px-10">
+                Get Started
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
+            </div>
+          </div>
     </section>
   );
 }
