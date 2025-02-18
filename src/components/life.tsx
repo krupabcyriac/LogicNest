@@ -1,5 +1,8 @@
 import image1img from '../gallery/image1.jpg';
 import image2img from '../gallery/image2.jpg';
+import image3img from '../gallery/image3.jpeg';
+import image4img from '../gallery/image4.jpeg';
+import image5img from '../gallery/image5.jpeg';
 
 export default function Life() {
     return (
@@ -24,7 +27,7 @@ export default function Life() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                         <img
-                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            src={image3img}
                             alt="Team collaboration"
                             className="w-full h-96 object-cover"
                         />
@@ -47,7 +50,7 @@ export default function Life() {
                     <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
                             <img
-                                src={image1img}
+                                src={image5img}
                                 alt="Team meeting"
                                 className="rounded-lg h-48 w-full object-cover"
                             />
@@ -75,7 +78,7 @@ export default function Life() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
                         <img
-                            src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            src={image4img}
                             alt="Learning session"
                             className="w-full h-96 object-cover"
                         />
